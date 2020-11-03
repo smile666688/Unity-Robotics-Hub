@@ -10,7 +10,7 @@
 - Copy UnityEditorScripts folder into the assets directory of your unity project.
 - Create a new folder in the Assets directory and name it Plugins.
 - Copy Urdf.dll in the plugins folder. Click on the urdf.dll in the Unity Editor and uncheck "Validate References".
-- Copy the associated ur3 URDF file and meshes into the Assets folder. The files should follow [this](urdf_tutorials/urdf_appendix.md#File-Hierarchy) hierarchy
+- Copy the associated ur3 URDF file and meshes into the Assets folder. The files should follow [this](urdf_tutorials/urdf_appendix.md#file-hierarchy) hierarchy
 - Find the ur3.urdf file in the assets folder and select it.
 - From the menu click `Assets` -> `Import Robot from URDF` or in file explorer right click on the selected file and click `Import Robot from URDF`.
 - Select the co-ordinate system in which the meshes were designed. Default mesh orientation is Y-up which is supported by Unity but some packages often use Z-up and X-up configuration. For more [information](https://docs.unity3d.com/Manual/HOWTO-FixZAxisIsUp.html). 
@@ -33,7 +33,7 @@
 
 ![](images/link_control.gif)
 
-A guide to making your controller can be found [here](urdf_appendix.md##Guide-to-write-your-own-controller)
+A guide to making your controller can be found [here](urdf_appendix.md#guide-to-write-your-own-controller)
 
 ## Forward Kinematics script
-Forward Kinematics scripts gives you the ability to see the current position of the end effector based on forward kinematics of the robot. You can [use](urdf_appendix.md##Using-FK-Robot-Script) it to compare the end effector position of the robot of the articulation body to make sure the importer is working correctly.
+Forward Kinematics scripts gives you the ability to see the current position of the end effector based on forward kinematics of the robot. You can [use](urdf_appendix.md#using-fk-robot-script) it to compare the end effector position of the robot of the articulation body to make sure the importer is working correctly.
