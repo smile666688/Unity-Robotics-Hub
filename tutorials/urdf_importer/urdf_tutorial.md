@@ -2,7 +2,7 @@
 
 ## Requirements
 - Unity Version 2020.2+
-- UR3 URDF file
+- [UR3 URDF file](https://github.cds.internal.unity3d.com/unity/URDF-Importer/releases/tag/0.0.2)
 - [URDF importer dll files and source code](https://github.cds.internal.unity3d.com/unity/URDF-Importer/releases)
 
 ## Setting up the URDF importer in Unity Editor 
